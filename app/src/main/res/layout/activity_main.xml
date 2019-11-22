@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_bar"
+        android:layout_gravity="top"
+        android:elevation="6dp"
+        android:background="#fff"
+
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginStart="20dp"
+                android:src="@drawable/download"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:text="@string/app_name"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/icon"
+        android:src="@drawable/meme"
+        app:civ_border_color="#EEEEEE"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="2"
+        android:gravity="center_horizontal"
+        app:civ_shadow_color="#000"
+        app:civ_border_width="2dp"
+        android:layout_marginTop="115dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/custom_button"
+        android:layout_marginTop="80dp"
+        app:buttonSize="wide"
+        android:layout_marginStart="30dp"
+        app:colorScheme="light"
+        android:layout_marginEnd="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+</LinearLayout>

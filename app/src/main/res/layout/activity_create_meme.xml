@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".create_meme">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/meme_image"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        app:civ_border_color="#EEEEEE"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#8BC34A"
+        app:civ_border_width="4dp"/>
+    <Button
+        android:text="Select Image"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/select_image"
+        android:layout_marginEnd="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="140dp"
+        android:id="@+id/created_meme"
+        android:layout_gravity="center_horizontal"
+        app:civ_border_color="#EEEEEE"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#8BC34A"
+        app:civ_border_width="4dp"
+        android:layout_marginTop="45dp"
+        android:layout_height="140dp" />
+
+</LinearLayout>

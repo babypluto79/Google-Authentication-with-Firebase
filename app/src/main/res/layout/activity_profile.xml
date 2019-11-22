@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/tool_bar"
+        android:layout_gravity="top"
+        android:elevation="10dp"
+        android:background="#fff"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        >
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <com.mikhaellopez.circularimageview.CircularImageView
+               android:layout_width="55dp"
+               android:layout_height="55dp"
+               android:id="@+id/profile_pic"
+               android:layout_marginStart="15dp"
+               android:layout_marginTop="2dp"
+               app:civ_border_color="#EEEEEE"
+               app:civ_shadow="true"
+               app:civ_shadow_radius="2"
+               app:civ_shadow_color="#8BC34A"
+               app:civ_border_width="2dp"/>
+           <TextView
+               android:id="@+id/name"
+               android:textSize="15sp"
+               android:layout_marginStart="15dp"
+               android:textColor="#000"
+               android:layout_marginTop="18dp"
+               android:textStyle="bold"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+
+       </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/email"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/userId"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:text="Logout"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:text="Create Meme"
+        android:id="@+id/create_meme"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>

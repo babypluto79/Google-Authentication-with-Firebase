@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "296842004524",
+    "firebase_url": "https://fever-c398c.firebaseio.com",
+    "project_id": "fever-c398c",
+    "storage_bucket": "fever-c398c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296842004524:android:0a37c53e4107a6ca",
+        "android_client_info": {
+          "package_name": "com.example.msafi.realtimedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296842004524-jvl0dgr0oliladk1nmthd3tqflrmuhp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.msafi.realtimedb",
+            "certificate_hash": "fd1c1d06ce4070b3dbc655e3623f983afd463f22"
+          }
+        },
+        {
+          "client_id": "296842004524-irv6udqhk4rfj3lvba9g00e5uj803nl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-vr-cTI-WxCz0HB7FQsBA9DfOr2cB7sM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296842004524-irv6udqhk4rfj3lvba9g00e5uj803nl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296842004524:android:d635332f5eb0204e",
+        "android_client_info": {
+          "package_name": "com.example.msafi.wizzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296842004524-demvcc0rj1lkn6erfv3a5it81ruu72il.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.msafi.wizzy",
+            "certificate_hash": "fd1c1d06ce4070b3dbc655e3623f983afd463f22"
+          }
+        },
+        {
+          "client_id": "296842004524-irv6udqhk4rfj3lvba9g00e5uj803nl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-vr-cTI-WxCz0HB7FQsBA9DfOr2cB7sM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296842004524-irv6udqhk4rfj3lvba9g00e5uj803nl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296842004524:android:a4b75bffe99bdcb2a96989",
+        "android_client_info": {
+          "package_name": "esskeetit.com.memeville"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296842004524-q9lga21v86r1un0abl2b5opkiim0hf4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "esskeetit.com.memeville",
+            "certificate_hash": "fd1c1d06ce4070b3dbc655e3623f983afd463f22"
+          }
+        },
+        {
+          "client_id": "296842004524-irv6udqhk4rfj3lvba9g00e5uj803nl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-vr-cTI-WxCz0HB7FQsBA9DfOr2cB7sM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296842004524-irv6udqhk4rfj3lvba9g00e5uj803nl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
